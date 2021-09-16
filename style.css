@@ -1,0 +1,57 @@
+html{
+    background-color:#020229ea;
+}
+/*body{
+    background-color: gray;
+}
+*/
+h1{
+    color: #bcccdc;
+    text-align: center;
+
+}
+
+p{
+    color: ghostwhite;
+   
+}
+.navbar{
+    overflow: hidden;
+    background-color:#020229c5;
+    position: unset;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: tomato;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background: rgba(153, 36, 7, 0.979);
+    color: rgb(255, 255, 255);
+}
+
+.navbar a.active{
+    background-color: rgb(127, 4, 143);
+    color: violet;
+}
+
+.navbar input[type=text]{
+    float: inline-end;
+    padding: 4px;
+    border: none;
+    margin-top: 10px;
+    margin-right: 23px;
+    font-size: 17px;
+
+}
+
+.main{
+    padding: 0px;
+}
